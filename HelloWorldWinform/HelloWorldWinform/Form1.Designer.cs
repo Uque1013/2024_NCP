@@ -28,20 +28,49 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("잘풀리는하루OTF Medium", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label1.Location = new System.Drawing.Point(161, 26);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(585, 66);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "박지우선생님 담임사건";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::HelloWorldWinform.Properties.Resources.신기한케로피;
+            this.pictureBox1.Location = new System.Drawing.Point(200, 95);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(504, 454);
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(849, 450);
+            this.ClientSize = new System.Drawing.Size(944, 616);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form111";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
