@@ -61,6 +61,7 @@
             this.Controls.Add(this.label1);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "3204 김예은 3-2 급훈";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
